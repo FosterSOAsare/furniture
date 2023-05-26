@@ -42,7 +42,7 @@ function App() {
 						))}
 					</div>
 
-					<div className="mt-4 w-3/5 md:w-auto max-w-xl mx-auto md:max-w-none ">
+					<div className="mt-4 w-auto sm:w-3/5 max-w-xl md:w-2/5 mx-auto md:max-w-none ">
 						<Button variant="outlined" text="Explore products" sx="w-full h-12" />
 					</div>
 				</div>

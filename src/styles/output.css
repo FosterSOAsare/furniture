@@ -913,6 +913,10 @@ video {
   padding-right: 1.5rem;
 }
 
+.pr-0 {
+  padding-right: 0px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1007,6 +1011,14 @@ video {
 }
 
 @media (min-width: 600px) {
+  .sm\:w-2\/5 {
+    width: 40%;
+  }
+
+  .sm\:w-3\/5 {
+    width: 60%;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1043,6 +1055,10 @@ video {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
   }
 
   .md\:max-w-5xl {
