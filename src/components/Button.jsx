@@ -6,7 +6,7 @@ const Button = ({ text, href, onClick, sx, color = "white", variant = "contained
 		<>
 			{!href && (
 				<button
-					className={`px-6 rounded-[5px] py-2 ${sx} font-semibold hover:opacity-50`}
+					className={`px-6 rounded-[5px] py-2 ${sx} flex items-center justify-center  font-semibold hover:opacity-50`}
 					onClick={onClick ? () => onClick() : () => console.log("dead")}
 					style={{
 						backgroundColor: variant === "contained" ? color : "transparent",
@@ -19,7 +19,7 @@ const Button = ({ text, href, onClick, sx, color = "white", variant = "contained
 			{href && (
 				<Link
 					to={href}
-					className={`px-6 rounded-[5px] py-2 ${sx} font-semibold hover:opacity-50`}
+					className={`px-6 rounded-[5px] py-2 flex items-center justify-center ${sx} font-semibold hover:opacity-50`}
 					style={{
 						backgroundColor: variant === "contained" ? color : "transparent",
 						color: color === "white" ? "#583101" : "white",

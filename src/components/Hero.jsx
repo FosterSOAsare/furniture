@@ -11,7 +11,7 @@ const Hero = () => {
 
 					<div className="flex gap-4 mt-6 flex-col md:flex-row">
 						<Button text="Register" color="#583101" sx="h-12" />
-						<Button text="Explore products" variant="outlined" sx="h-12" />
+						<Button text="Explore products" variant="outlined" sx="h-12" href="/products" />
 					</div>
 				</article>
 				<article className="w-full md:w-1/2 relative h-auto">
